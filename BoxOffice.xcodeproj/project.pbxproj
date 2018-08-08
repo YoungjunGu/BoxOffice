@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF17E97F211ACA1100DA03A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E97E211ACA1100DA03A9 /* AppDelegate.swift */; };
+		EF17E981211ACA1100DA03A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E980211ACA1100DA03A9 /* ViewController.swift */; };
+		EF17E984211ACA1100DA03A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF17E982211ACA1100DA03A9 /* Main.storyboard */; };
+		EF17E986211ACA1200DA03A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF17E985211ACA1200DA03A9 /* Assets.xcassets */; };
+		EF17E989211ACA1200DA03A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF17E987211ACA1200DA03A9 /* LaunchScreen.storyboard */; };
+		EF17E994211ACA1200DA03A9 /* BoxOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E993211ACA1200DA03A9 /* BoxOfficeTests.swift */; };
+		EF17E99F211ACA1200DA03A9 /* BoxOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E99E211ACA1200DA03A9 /* BoxOfficeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF17E990211ACA1200DA03A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17E973211ACA1100DA03A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF17E97A211ACA1100DA03A9;
+			remoteInfo = BoxOffice;
+		};
+		EF17E99B211ACA1200DA03A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17E973211ACA1100DA03A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF17E97A211ACA1100DA03A9;
+			remoteInfo = BoxOffice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF17E97B211ACA1100DA03A9 /* BoxOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF17E97E211ACA1100DA03A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF17E980211ACA1100DA03A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF17E983211ACA1100DA03A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF17E985211ACA1200DA03A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF17E988211ACA1200DA03A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF17E98A211ACA1200DA03A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF17E98F211ACA1200DA03A9 /* BoxOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF17E993211ACA1200DA03A9 /* BoxOfficeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeTests.swift; sourceTree = "<group>"; };
+		EF17E995211ACA1200DA03A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF17E99A211ACA1200DA03A9 /* BoxOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF17E99E211ACA1200DA03A9 /* BoxOfficeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeUITests.swift; sourceTree = "<group>"; };
+		EF17E9A0211ACA1200DA03A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF17E978211ACA1100DA03A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF17E98C211ACA1200DA03A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF17E997211ACA1200DA03A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF17E972211ACA1100DA03A9 = {
+			isa = PBXGroup;
+			children = (
+				EF17E97D211ACA1100DA03A9 /* BoxOffice */,
+				EF17E992211ACA1200DA03A9 /* BoxOfficeTests */,
+				EF17E99D211ACA1200DA03A9 /* BoxOfficeUITests */,
+				EF17E97C211ACA1100DA03A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF17E97C211ACA1100DA03A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17E97B211ACA1100DA03A9 /* BoxOffice.app */,
+				EF17E98F211ACA1200DA03A9 /* BoxOfficeTests.xctest */,
+				EF17E99A211ACA1200DA03A9 /* BoxOfficeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF17E97D211ACA1100DA03A9 /* BoxOffice */ = {
+			isa = PBXGroup;
+			children = (
+				EF17E97E211ACA1100DA03A9 /* AppDelegate.swift */,
+				EF17E980211ACA1100DA03A9 /* ViewController.swift */,
+				EF17E982211ACA1100DA03A9 /* Main.storyboard */,
+				EF17E985211ACA1200DA03A9 /* Assets.xcassets */,
+				EF17E987211ACA1200DA03A9 /* LaunchScreen.storyboard */,
+				EF17E98A211ACA1200DA03A9 /* Info.plist */,
+			);
+			path = BoxOffice;
+			sourceTree = "<group>";
+		};
+		EF17E992211ACA1200DA03A9 /* BoxOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF17E993211ACA1200DA03A9 /* BoxOfficeTests.swift */,
+				EF17E995211ACA1200DA03A9 /* Info.plist */,
+			);
+			path = BoxOfficeTests;
+			sourceTree = "<group>";
+		};
+		EF17E99D211ACA1200DA03A9 /* BoxOfficeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF17E99E211ACA1200DA03A9 /* BoxOfficeUITests.swift */,
+				EF17E9A0211ACA1200DA03A9 /* Info.plist */,
+			);
+			path = BoxOfficeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF17E97A211ACA1100DA03A9 /* BoxOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF17E9A3211ACA1200DA03A9 /* Build configuration list for PBXNativeTarget "BoxOffice" */;
+			buildPhases = (
+				EF17E977211ACA1100DA03A9 /* Sources */,
+				EF17E978211ACA1100DA03A9 /* Frameworks */,
+				EF17E979211ACA1100DA03A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxOffice;
+			productName = BoxOffice;
+			productReference = EF17E97B211ACA1100DA03A9 /* BoxOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF17E98E211ACA1200DA03A9 /* BoxOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF17E9A6211ACA1200DA03A9 /* Build configuration list for PBXNativeTarget "BoxOfficeTests" */;
+			buildPhases = (
+				EF17E98B211ACA1200DA03A9 /* Sources */,
+				EF17E98C211ACA1200DA03A9 /* Frameworks */,
+				EF17E98D211ACA1200DA03A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF17E991211ACA1200DA03A9 /* PBXTargetDependency */,
+			);
+			name = BoxOfficeTests;
+			productName = BoxOfficeTests;
+			productReference = EF17E98F211ACA1200DA03A9 /* BoxOfficeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF17E999211ACA1200DA03A9 /* BoxOfficeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF17E9A9211ACA1200DA03A9 /* Build configuration list for PBXNativeTarget "BoxOfficeUITests" */;
+			buildPhases = (
+				EF17E996211ACA1200DA03A9 /* Sources */,
+				EF17E997211ACA1200DA03A9 /* Frameworks */,
+				EF17E998211ACA1200DA03A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF17E99C211ACA1200DA03A9 /* PBXTargetDependency */,
+			);
+			name = BoxOfficeUITests;
+			productName = BoxOfficeUITests;
+			productReference = EF17E99A211ACA1200DA03A9 /* BoxOfficeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF17E973211ACA1100DA03A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "youngjun goo";
+				TargetAttributes = {
+					EF17E97A211ACA1100DA03A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EF17E98E211ACA1200DA03A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF17E97A211ACA1100DA03A9;
+					};
+					EF17E999211ACA1200DA03A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF17E97A211ACA1100DA03A9;
+					};
+				};
+			};
+			buildConfigurationList = EF17E976211ACA1100DA03A9 /* Build configuration list for PBXProject "BoxOffice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF17E972211ACA1100DA03A9;
+			productRefGroup = EF17E97C211ACA1100DA03A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF17E97A211ACA1100DA03A9 /* BoxOffice */,
+				EF17E98E211ACA1200DA03A9 /* BoxOfficeTests */,
+				EF17E999211ACA1200DA03A9 /* BoxOfficeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF17E979211ACA1100DA03A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF17E989211ACA1200DA03A9 /* LaunchScreen.storyboard in Resources */,
+				EF17E986211ACA1200DA03A9 /* Assets.xcassets in Resources */,
+				EF17E984211ACA1100DA03A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF17E98D211ACA1200DA03A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF17E998211ACA1200DA03A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF17E977211ACA1100DA03A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF17E981211ACA1100DA03A9 /* ViewController.swift in Sources */,
+				EF17E97F211ACA1100DA03A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF17E98B211ACA1200DA03A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF17E994211ACA1200DA03A9 /* BoxOfficeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF17E996211ACA1200DA03A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF17E99F211ACA1200DA03A9 /* BoxOfficeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF17E991211ACA1200DA03A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF17E97A211ACA1100DA03A9 /* BoxOffice */;
+			targetProxy = EF17E990211ACA1200DA03A9 /* PBXContainerItemProxy */;
+		};
+		EF17E99C211ACA1200DA03A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF17E97A211ACA1100DA03A9 /* BoxOffice */;
+			targetProxy = EF17E99B211ACA1200DA03A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF17E982211ACA1100DA03A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF17E983211ACA1100DA03A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF17E987211ACA1200DA03A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF17E988211ACA1200DA03A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF17E9A1211ACA1200DA03A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF17E9A2211ACA1200DA03A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF17E9A4211ACA1200DA03A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.BoxOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF17E9A5211ACA1200DA03A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.BoxOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF17E9A7211ACA1200DA03A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.BoxOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxOffice.app/BoxOffice";
+			};
+			name = Debug;
+		};
+		EF17E9A8211ACA1200DA03A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.BoxOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxOffice.app/BoxOffice";
+			};
+			name = Release;
+		};
+		EF17E9AA211ACA1200DA03A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxOfficeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.BoxOfficeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoxOffice;
+			};
+			name = Debug;
+		};
+		EF17E9AB211ACA1200DA03A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxOfficeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.BoxOfficeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoxOffice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF17E976211ACA1100DA03A9 /* Build configuration list for PBXProject "BoxOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF17E9A1211ACA1200DA03A9 /* Debug */,
+				EF17E9A2211ACA1200DA03A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF17E9A3211ACA1200DA03A9 /* Build configuration list for PBXNativeTarget "BoxOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF17E9A4211ACA1200DA03A9 /* Debug */,
+				EF17E9A5211ACA1200DA03A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF17E9A6211ACA1200DA03A9 /* Build configuration list for PBXNativeTarget "BoxOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF17E9A7211ACA1200DA03A9 /* Debug */,
+				EF17E9A8211ACA1200DA03A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF17E9A9211ACA1200DA03A9 /* Build configuration list for PBXNativeTarget "BoxOfficeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF17E9AA211ACA1200DA03A9 /* Debug */,
+				EF17E9AB211ACA1200DA03A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF17E973211ACA1100DA03A9 /* Project object */;
+}
