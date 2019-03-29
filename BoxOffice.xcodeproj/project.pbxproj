@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF00732E21342C68005863B3 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00732D21342C68005863B3 /* InfoTableViewController.swift */; };
+		EF1645252122FB1900D592F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1645242122FB1900D592F6 /* MainViewController.swift */; };
+		EF164527212315BC00D592F6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF164526212315BC00D592F6 /* CollectionViewCell.swift */; };
 		EF17E97F211ACA1100DA03A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E97E211ACA1100DA03A9 /* AppDelegate.swift */; };
-		EF17E981211ACA1100DA03A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E980211ACA1100DA03A9 /* ViewController.swift */; };
 		EF17E984211ACA1100DA03A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF17E982211ACA1100DA03A9 /* Main.storyboard */; };
 		EF17E986211ACA1200DA03A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF17E985211ACA1200DA03A9 /* Assets.xcassets */; };
 		EF17E989211ACA1200DA03A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF17E987211ACA1200DA03A9 /* LaunchScreen.storyboard */; };
 		EF17E994211ACA1200DA03A9 /* BoxOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E993211ACA1200DA03A9 /* BoxOfficeTests.swift */; };
 		EF17E99F211ACA1200DA03A9 /* BoxOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E99E211ACA1200DA03A9 /* BoxOfficeUITests.swift */; };
+		EF17E9AD211ACC3500DA03A9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E9AC211ACC3500DA03A9 /* TableViewController.swift */; };
+		EF17E9AF211ACC6500DA03A9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E9AE211ACC6500DA03A9 /* CollectionViewController.swift */; };
+		EF17E9B3211B23C500DA03A9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E9B2211B23C500DA03A9 /* Model.swift */; };
+		EF17E9B5211B277300DA03A9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17E9B4211B277300DA03A9 /* TableViewCell.swift */; };
+		EF1C4F38213E10150081B274 /* WriteCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C4F37213E10150081B274 /* WriteCommentViewController.swift */; };
+		EF1C4F3A2141556A0081B274 /* MovieInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C4F392141556A0081B274 /* MovieInformation.swift */; };
+		EF22E90A213967A00065F131 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22E909213967A00065F131 /* CommentTableViewCell.swift */; };
+		EFB5C822214CED7B001B46C9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB5C821214CED7B001B46C9 /* Response.swift */; };
+		EFB5C824214CED98001B46C9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB5C823214CED98001B46C9 /* Request.swift */; };
+		EFED93FB2151D80E001C0DD1 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93EB2151D80C001C0DD1 /* CosmosSettings.swift */; };
+		EFED93FC2151D80E001C0DD1 /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93EC2151D80C001C0DD1 /* CosmosText.swift */; };
+		EFED93FD2151D80E001C0DD1 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93ED2151D80C001C0DD1 /* CosmosView.swift */; };
+		EFED93FE2151D80E001C0DD1 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93EE2151D80D001C0DD1 /* RightToLeft.swift */; };
+		EFED93FF2151D80E001C0DD1 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93EF2151D80D001C0DD1 /* CosmosLayerHelper.swift */; };
+		EFED94002151D80E001C0DD1 /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F02151D80D001C0DD1 /* CosmosRating.swift */; };
+		EFED94012151D80E001C0DD1 /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F12151D80D001C0DD1 /* CosmosDefaultSettings.swift */; };
+		EFED94022151D80E001C0DD1 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F32151D80D001C0DD1 /* StarFillMode.swift */; };
+		EFED94032151D80E001C0DD1 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F42151D80D001C0DD1 /* StarLayer.swift */; };
+		EFED94042151D80E001C0DD1 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F52151D80D001C0DD1 /* CosmosTouchTarget.swift */; };
+		EFED94052151D80E001C0DD1 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F62151D80E001C0DD1 /* CosmosLocalizedRating.swift */; };
+		EFED94062151D80E001C0DD1 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F72151D80E001C0DD1 /* CosmosLayers.swift */; };
+		EFED94072151D80E001C0DD1 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F82151D80E001C0DD1 /* CosmosTouch.swift */; };
+		EFED94082151D80E001C0DD1 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93F92151D80E001C0DD1 /* CosmosSize.swift */; };
+		EFED94092151D80E001C0DD1 /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED93FA2151D80E001C0DD1 /* CosmosAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF00732D21342C68005863B3 /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
+		EF1645242122FB1900D592F6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EF164526212315BC00D592F6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		EF17E97B211ACA1100DA03A9 /* BoxOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF17E97E211ACA1100DA03A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF17E980211ACA1100DA03A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF17E983211ACA1100DA03A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF17E985211ACA1200DA03A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF17E988211ACA1200DA03A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +75,31 @@
 		EF17E99A211ACA1200DA03A9 /* BoxOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF17E99E211ACA1200DA03A9 /* BoxOfficeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeUITests.swift; sourceTree = "<group>"; };
 		EF17E9A0211ACA1200DA03A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF17E9AC211ACC3500DA03A9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EF17E9AE211ACC6500DA03A9 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		EF17E9B2211B23C500DA03A9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EF17E9B4211B277300DA03A9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EF1C4F37213E10150081B274 /* WriteCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteCommentViewController.swift; sourceTree = "<group>"; };
+		EF1C4F392141556A0081B274 /* MovieInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInformation.swift; sourceTree = "<group>"; };
+		EF22E909213967A00065F131 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		EFB5C821214CED7B001B46C9 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		EFB5C823214CED98001B46C9 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		EFED93EB2151D80C001C0DD1 /* CosmosSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = starrating/starrating/Cosmos/CosmosSettings.swift; sourceTree = SOURCE_ROOT; };
+		EFED93EC2151D80C001C0DD1 /* CosmosText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = starrating/starrating/Cosmos/CosmosText.swift; sourceTree = SOURCE_ROOT; };
+		EFED93ED2151D80C001C0DD1 /* CosmosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = starrating/starrating/Cosmos/CosmosView.swift; sourceTree = SOURCE_ROOT; };
+		EFED93EE2151D80D001C0DD1 /* RightToLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = starrating/starrating/Cosmos/RightToLeft.swift; sourceTree = SOURCE_ROOT; };
+		EFED93EF2151D80D001C0DD1 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = starrating/starrating/Cosmos/CosmosLayerHelper.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F02151D80D001C0DD1 /* CosmosRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = starrating/starrating/Cosmos/CosmosRating.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F12151D80D001C0DD1 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = starrating/starrating/Cosmos/CosmosDefaultSettings.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F22151D80D001C0DD1 /* Cosmos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cosmos.h; path = starrating/starrating/Cosmos/Cosmos.h; sourceTree = SOURCE_ROOT; };
+		EFED93F32151D80D001C0DD1 /* StarFillMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = starrating/starrating/Cosmos/StarFillMode.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F42151D80D001C0DD1 /* StarLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = starrating/starrating/Cosmos/StarLayer.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F52151D80D001C0DD1 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = starrating/starrating/Cosmos/CosmosTouchTarget.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F62151D80E001C0DD1 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = starrating/starrating/Cosmos/CosmosLocalizedRating.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F72151D80E001C0DD1 /* CosmosLayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = starrating/starrating/Cosmos/CosmosLayers.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F82151D80E001C0DD1 /* CosmosTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = starrating/starrating/Cosmos/CosmosTouch.swift; sourceTree = SOURCE_ROOT; };
+		EFED93F92151D80E001C0DD1 /* CosmosSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = starrating/starrating/Cosmos/CosmosSize.swift; sourceTree = SOURCE_ROOT; };
+		EFED93FA2151D80E001C0DD1 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = starrating/starrating/Cosmos/CosmosAccessibility.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +127,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF0FB78B214F4D26006E7E76 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				EFED93F22151D80D001C0DD1 /* Cosmos.h */,
+				EFED93FA2151D80E001C0DD1 /* CosmosAccessibility.swift */,
+				EFED93F12151D80D001C0DD1 /* CosmosDefaultSettings.swift */,
+				EFED93EF2151D80D001C0DD1 /* CosmosLayerHelper.swift */,
+				EFED93F72151D80E001C0DD1 /* CosmosLayers.swift */,
+				EFED93F62151D80E001C0DD1 /* CosmosLocalizedRating.swift */,
+				EFED93F02151D80D001C0DD1 /* CosmosRating.swift */,
+				EFED93EB2151D80C001C0DD1 /* CosmosSettings.swift */,
+				EFED93F92151D80E001C0DD1 /* CosmosSize.swift */,
+				EFED93EC2151D80C001C0DD1 /* CosmosText.swift */,
+				EFED93F82151D80E001C0DD1 /* CosmosTouch.swift */,
+				EFED93F52151D80D001C0DD1 /* CosmosTouchTarget.swift */,
+				EFED93ED2151D80C001C0DD1 /* CosmosView.swift */,
+				EFED93EE2151D80D001C0DD1 /* RightToLeft.swift */,
+				EFED93F32151D80D001C0DD1 /* StarFillMode.swift */,
+				EFED93F42151D80D001C0DD1 /* StarLayer.swift */,
+			);
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
 		EF17E972211ACA1100DA03A9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +173,13 @@
 		EF17E97D211ACA1100DA03A9 /* BoxOffice */ = {
 			isa = PBXGroup;
 			children = (
+				EF9A21B4224DA5DF0094D880 /* Storyboard */,
+				EF9A21B3224DA5A70094D880 /* ViewController */,
+				EF9A21B2224DA5090094D880 /* View */,
+				EF9A21B1224DA4F00094D880 /* Model */,
+				EF0FB78B214F4D26006E7E76 /* Cosmos */,
+				EF9A21B5224DA5F90094D880 /* SupportFiles */,
 				EF17E97E211ACA1100DA03A9 /* AppDelegate.swift */,
-				EF17E980211ACA1100DA03A9 /* ViewController.swift */,
-				EF17E982211ACA1100DA03A9 /* Main.storyboard */,
-				EF17E985211ACA1200DA03A9 /* Assets.xcassets */,
-				EF17E987211ACA1200DA03A9 /* LaunchScreen.storyboard */,
-				EF17E98A211ACA1200DA03A9 /* Info.plist */,
 			);
 			path = BoxOffice;
 			sourceTree = "<group>";
@@ -123,6 +200,57 @@
 				EF17E9A0211ACA1200DA03A9 /* Info.plist */,
 			);
 			path = BoxOfficeUITests;
+			sourceTree = "<group>";
+		};
+		EF9A21B1224DA4F00094D880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C4F392141556A0081B274 /* MovieInformation.swift */,
+				EFB5C823214CED98001B46C9 /* Request.swift */,
+				EFB5C821214CED7B001B46C9 /* Response.swift */,
+				EF17E9B2211B23C500DA03A9 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF9A21B2224DA5090094D880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF22E909213967A00065F131 /* CommentTableViewCell.swift */,
+				EF164526212315BC00D592F6 /* CollectionViewCell.swift */,
+				EF17E9B4211B277300DA03A9 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF9A21B3224DA5A70094D880 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF1645242122FB1900D592F6 /* MainViewController.swift */,
+				EF17E9AC211ACC3500DA03A9 /* TableViewController.swift */,
+				EF17E9AE211ACC6500DA03A9 /* CollectionViewController.swift */,
+				EF00732D21342C68005863B3 /* InfoTableViewController.swift */,
+				EF1C4F37213E10150081B274 /* WriteCommentViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EF9A21B4224DA5DF0094D880 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EF17E982211ACA1100DA03A9 /* Main.storyboard */,
+				EF17E987211ACA1200DA03A9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EF9A21B5224DA5F90094D880 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EF17E98A211ACA1200DA03A9 /* Info.plist */,
+				EF17E985211ACA1200DA03A9 /* Assets.xcassets */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +384,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF17E981211ACA1100DA03A9 /* ViewController.swift in Sources */,
+				EF1C4F3A2141556A0081B274 /* MovieInformation.swift in Sources */,
+				EFED94092151D80E001C0DD1 /* CosmosAccessibility.swift in Sources */,
+				EFB5C824214CED98001B46C9 /* Request.swift in Sources */,
+				EF00732E21342C68005863B3 /* InfoTableViewController.swift in Sources */,
+				EFED94072151D80E001C0DD1 /* CosmosTouch.swift in Sources */,
+				EF1645252122FB1900D592F6 /* MainViewController.swift in Sources */,
+				EF17E9B3211B23C500DA03A9 /* Model.swift in Sources */,
+				EFED94012151D80E001C0DD1 /* CosmosDefaultSettings.swift in Sources */,
+				EFED93FF2151D80E001C0DD1 /* CosmosLayerHelper.swift in Sources */,
+				EFED94032151D80E001C0DD1 /* StarLayer.swift in Sources */,
+				EFED93FB2151D80E001C0DD1 /* CosmosSettings.swift in Sources */,
+				EFED93FC2151D80E001C0DD1 /* CosmosText.swift in Sources */,
+				EFB5C822214CED7B001B46C9 /* Response.swift in Sources */,
+				EF17E9AF211ACC6500DA03A9 /* CollectionViewController.swift in Sources */,
+				EF164527212315BC00D592F6 /* CollectionViewCell.swift in Sources */,
+				EFED94052151D80E001C0DD1 /* CosmosLocalizedRating.swift in Sources */,
+				EF17E9B5211B277300DA03A9 /* TableViewCell.swift in Sources */,
+				EF1C4F38213E10150081B274 /* WriteCommentViewController.swift in Sources */,
+				EFED93FD2151D80E001C0DD1 /* CosmosView.swift in Sources */,
+				EFED93FE2151D80E001C0DD1 /* RightToLeft.swift in Sources */,
+				EFED94042151D80E001C0DD1 /* CosmosTouchTarget.swift in Sources */,
+				EF22E90A213967A00065F131 /* CommentTableViewCell.swift in Sources */,
+				EF17E9AD211ACC3500DA03A9 /* TableViewController.swift in Sources */,
+				EFED94002151D80E001C0DD1 /* CosmosRating.swift in Sources */,
+				EFED94062151D80E001C0DD1 /* CosmosLayers.swift in Sources */,
+				EFED94022151D80E001C0DD1 /* StarFillMode.swift in Sources */,
 				EF17E97F211ACA1100DA03A9 /* AppDelegate.swift in Sources */,
+				EFED94082151D80E001C0DD1 /* CosmosSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,14 +584,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoxOffice/Info.plist;
+				DEVELOPMENT_TEAM = 5CLQV3W6FV;
+				INFOPLIST_FILE = "$(SRCROOT)/BoxOffice/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.BoxOffice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,14 +605,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoxOffice/Info.plist;
+				DEVELOPMENT_TEAM = 5CLQV3W6FV;
+				INFOPLIST_FILE = "$(SRCROOT)/BoxOffice/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.youngjun.BoxOffice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
